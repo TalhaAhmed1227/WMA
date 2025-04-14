@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/border">
+
+    <EditText
+        android:id="@+id/productField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_weight="1"
+        android:hint="Product" />
+
+    <EditText
+        android:id="@+id/reasonField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_weight="1"
+        android:hint="Reason" />
+
+    <EditText
+        android:id="@+id/priceField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_weight="1"
+        android:hint="Price"
+        android:inputType="numberDecimal" />
+</LinearLayout>

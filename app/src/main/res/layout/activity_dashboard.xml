@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/activity_dashbord"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome User"
+        android:background="@drawable/edittext_border"
+        android:textColor="#6F1E1E"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/datePickerButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#680C28"
+        android:textColor="#A83333"
+        android:layout_height="wrap_content"
+        android:text="Select Date" />
+
+    <Button
+        android:id="@+id/timePickerButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#680C28"
+        android:textColor="#A83333"
+        android:layout_height="wrap_content"
+        android:text="Select Time" />
+
+    <ImageButton
+        android:id="@+id/addTableButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext_border"
+        android:src="@android:drawable/ic_input_add"
+        android:contentDescription="Add Table" />
+
+    <LinearLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#680C28"
+        android:textColor="#A83333"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

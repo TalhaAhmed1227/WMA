@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_admin"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 📌 Admin Dashboard Title -->
+        <TextView
+            android:id="@+id/adminDashboardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADMIN DASHBOARD"
+            android:background="@drawable/edittext_border"
+            android:textColor="#6F1E1E"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10dp" />
+
+        <!-- 👥 Display Users Count -->
+        <TextView
+            android:id="@+id/usersCountText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of Users: 0"
+            android:background="@drawable/edittext_border"
+            android:textColor="#993030"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <!-- 📜 User List -->
+        <LinearLayout
+            android:id="@+id/userListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp" />
+
+        <!-- 📅 Date Picker Button -->
+        <Button
+            android:id="@+id/datePickerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date for Report"
+            android:backgroundTint="#680C28"
+            android:textColor="#A83333"
+            android:padding="10dp"/>
+
+
+        <!-- 📄 Generate Report Button -->
+        <Button
+            android:id="@+id/reportButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Report"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#680C28"
+            android:textColor="#A83333"
+            android:padding="10dp"/>
+
+        <!-- 📂 Report Status Text -->
+        <TextView
+            android:id="@+id/reportStatusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Status"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:padding="8dp"
+            android:visibility="gone" />
+
+        <!-- 📩 Send Email Button (Hidden until report is generated) -->
+        <Button
+            android:id="@+id/sendEmailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Report via Email"
+            android:padding="10dp"
+            android:backgroundTint="#680C28"
+            android:textColor="#A83333"
+            android:visibility="gone" />
+
+        <!-- 🚪 Logout Button -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:padding="10dp"
+            android:layout_marginTop="300dp"
+            android:backgroundTint="#680C28"
+            android:textColor="#A83333" />
+    </LinearLayout>
+</ScrollView>

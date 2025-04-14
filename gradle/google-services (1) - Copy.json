@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1079760366842",
+    "project_id": "finance-tracking-system-e2edc",
+    "storage_bucket": "finance-tracking-system-e2edc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079760366842:android:fbf271ef083ea87a9dad43",
+        "android_client_info": {
+          "package_name": "com.example.wma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPOHSnWklDQoeidP1kjHNzZyoJ0zvRPHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

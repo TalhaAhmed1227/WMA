@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/activity_signup"
+    tools:context=".SignupActivity">
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:background="@drawable/edittext_border"
+        android:textColorHint="#D18484"
+        android:inputType="textPersonName"
+        android:layout_marginTop="120dp"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Enter your email"
+        android:background="@drawable/edittext_border"
+        android:textColorHint="#D18484"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Enter your password"
+        android:background="@drawable/edittext_border"
+        android:textColorHint="#D18484"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Admin Checkbox -->
+    <CheckBox
+        android:id="@+id/adminCheckBox"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_border"
+        android:minHeight="48dp"
+        android:text="Register as Admin"
+        android:textColor="#D18484" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CE1754"
+        android:textColor="#7C082C"
+        android:text="Sign Up"
+        android:padding="12dp"/>
+
+</LinearLayout>
